@@ -1,0 +1,41 @@
+{
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 2019
+  },
+  "rules": {
+    "indent": "off",
+    "linebreak-style": [
+      "error",
+      "windows"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "never"
+    ],
+    "no-buffer-constructor": "error",
+    "no-undef": "error",
+    "no-console": "off",
+    "no-catch-shadow": "error",
+    "no-const-assign": "error",
+    "no-constant-condition": "error",
+    "no-trailing-spaces": "error",
+    "no-unused-vars": "warn",
+    "no-control-regex":"off",
+    "require-atomic-updates": "off",
+    "no-useless-escape": "off"
+  },
+  "globals": {
+    "BigInt": true,
+    "Atomics": true,
+    "SharedArrayBuffer": true
+  }
+}
