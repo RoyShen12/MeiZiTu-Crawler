@@ -22,6 +22,8 @@ node index
 
 ```
 
+example: `node index -s 1 -e 100 -c 100`
+
 # Where is my trophies
 
 爬取的图片默认在 `./pic` 下，可以修改 picDir 存放到别处
