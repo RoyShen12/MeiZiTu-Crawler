@@ -59,9 +59,7 @@ const fsp = fs.promises
 
 const Crawler = require('crawler')
 // const Cheerio = require('cheerio')
-// const readChunk = require('read-chunk')
 const fileType = require('file-type')
-// const origin = require('original')
 const _ = require('lodash')
 const chalk = require('chalk').default
 
@@ -200,7 +198,6 @@ const picCrawler = new Crawler({
         //     done()
         //   }
         //   else {
-            
         //   }
         // })
       }
