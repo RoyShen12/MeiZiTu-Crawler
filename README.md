@@ -4,14 +4,14 @@
 
 # How To Use
 
-```
+```bash
 $ npm install
 $ node index
 ```
 
 # Man Pages
 
-```
+```bash
 node index
 
   --start, -s <number> [开始爬取的页码, 最小为 1]

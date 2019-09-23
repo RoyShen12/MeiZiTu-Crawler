@@ -1,5 +1,5 @@
 const chalk = require('chalk').default
-const list = require('../std_library/src/list')
+const { list } = require('std_library')
 const _ = require('lodash')
 
 function timeBasedLogHead() {
@@ -27,9 +27,9 @@ function cutLongLine(line) {
   return line
 }
 
-function hard_sleep(n) {
-  Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, n)
-}
+// function hard_sleep(n) {
+//   Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, n)
+// }
 
 class FixedSizeArray extends list {
   constructor(maxSize) {
